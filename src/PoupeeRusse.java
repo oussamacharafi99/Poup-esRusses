@@ -62,6 +62,9 @@ public class PoupeeRusse implements Poupee {
         }
 
     }
+    public void aficher(){
+        System.out.println(" * - Doll Name -->  "+this.getNomP()+"|  Doll Taille -->  "+this.getTaille());
+    }
 
 
     public int getTaille() {

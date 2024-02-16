@@ -18,20 +18,20 @@ public class Menu {
             switch (Choix){
                 case 1:
                     System.out.println("Débloquez la poupée ?");
-                    System.out.println(" 1 - Doll Name -->  "+poupee1.getNomP()+"|  Doll Taille -->  "+poupee1.getTaille());
-                    System.out.println(" 2 - Doll Name -->  "+poupee2.getNomP()+"|  Doll Taille -->  "+poupee2.getTaille());
-                    System.out.println(" 3 - Doll Name -->  "+poupee3.getNomP()+"|  Doll Taille -->  "+poupee3.getTaille());
+                    poupee1.aficher();
+                    poupee2.aficher();
+                    poupee3.aficher();
 
                     int choice = new Scanner(System.in).nextInt();
                     switch (choice){
                         case 1 :
                             poupee1.ouvrir();
                             System.out.println("\nPour insérer une poupée Entrer 1 ou 2 !");
-                            System.out.println(" 1 - Doll Name -->  "+poupee2.getNomP()+"|  Doll Taille -->  "+poupee2.getTaille());
-                            System.out.println(" 2 - Doll Name -->  "+poupee3.getNomP()+"|  Doll Taille -->  "+poupee3.getTaille());
+                            poupee2.aficher();
+                            poupee3.aficher();
                             System.out.println("\n------------------ Pour sortir la poupée Entrer 3 ou 4 ! ");
-                            System.out.println(" 3 - Doll Name -->  "+poupee2.getNomP()+"|  Doll Taille -->  "+poupee2.getTaille());
-                            System.out.println(" 4 - Doll Name -->  "+poupee3.getNomP()+"|  Doll Taille -->  "+poupee3.getTaille());
+                            poupee2.aficher();
+                            poupee3.aficher();
                             System.out.println("\n------ Entre nomber 0 pour retourner !------\n");
                             System.out.println("\n-- -- -- Entre Votre choix !");
 
@@ -57,11 +57,11 @@ public class Menu {
                         case 2 :
                             poupee2.ouvrir();
                             System.out.println("\nPour insérer une poupée Entrer 1 ou 2 !");
-                            System.out.println(" 1 - Doll Name -->  "+poupee1.getNomP()+"|  Doll Taille -->  "+poupee1.getTaille());
-                            System.out.println(" 2 - Doll Name -->  "+poupee3.getNomP()+"|  Doll Taille -->  "+poupee3.getTaille());
+                            poupee1.aficher();
+                            poupee3.aficher();
                             System.out.println("------------------ Pour sortir la poupée Entrer 3 ou 4 ! ");
-                            System.out.println(" 3 - Doll Name -->  "+poupee1.getNomP()+"|  Doll Taille -->  "+poupee1.getTaille());
-                            System.out.println(" 4 - Doll Name -->  "+poupee3.getNomP()+"|  Doll Taille -->  "+poupee3.getTaille());
+                            poupee1.aficher();
+                            poupee3.aficher();
                             System.out.println("\n-----Entre nomber 0 pour retourner !-----");
                             System.out.println("\n-- -- -- Entre Votre choix !");
                             choice = new Scanner(System.in).nextInt();
@@ -86,11 +86,11 @@ public class Menu {
                         case 3 :
                             poupee3.ouvrir();
                             System.out.println("\nPour insérer une poupée Entrer 1 ou 2 !");
-                            System.out.println(" 1 - Doll Name -->  "+poupee1.getNomP()+"|  Doll Taille -->  "+poupee1.getTaille());
-                            System.out.println(" 2 - Doll Name -->  "+poupee2.getNomP()+"|  Doll Taille -->  "+poupee2.getTaille());
+                            poupee1.aficher();
+                            poupee2.aficher();
                             System.out.println("------------------ Pour sortir la poupée Entrer 3 ou 4 ! ");
-                            System.out.println(" 3 - Doll Name -->  "+poupee1.getNomP()+"|  Doll Taille -->  "+poupee1.getTaille());
-                            System.out.println(" 4 - Doll Name -->  "+poupee2.getNomP()+"|  Doll Taille -->  "+poupee2.getTaille());
+                            poupee1.aficher();
+                            poupee2.aficher();
                             System.out.println("\n-----Entre nomber 0 pour retourner !-----");
                             System.out.println("\n-- -- -- Entre Votre choix !");
                             choice = new Scanner(System.in).nextInt();
@@ -117,10 +117,9 @@ public class Menu {
 
                     break;
                 case 2:
-
-                    System.out.println(" 1 - Doll Name -->  "+poupee1.getNomP()+"|  Doll Taille -->  "+poupee1.getTaille());
-                    System.out.println(" 2 - Doll Name -->  "+poupee2.getNomP()+"|  Doll Taille -->  "+poupee2.getTaille());
-                    System.out.println(" 3 - Doll Name -->  "+poupee3.getNomP()+"|  Doll Taille -->  "+poupee3.getTaille());
+                    poupee1.aficher();
+                    poupee2.aficher();
+                    poupee3.aficher();
                     System.out.println("\n-----Entre nomber 0 pour retourner !-----");
                     System.out.println("Entrez le numéro de la poupée que vous souhaitez verrouiller ?");
                     int choix = new Scanner(System.in).nextInt();
