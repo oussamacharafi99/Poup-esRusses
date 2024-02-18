@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bfae665-f265-4fc2-b6a5-0e3ce5651da0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PoupeeRusse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PoupeeRusse.java" afterDir="false" />
-    </list>
+    <list default="true" id="9bfae665-f265-4fc2-b6a5-0e3ce5651da0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,8 +58,11 @@
       <updated>1707731638313</updated>
       <workItem from="1707731639393" duration="2206000" />
       <workItem from="1707907394577" duration="8948000" />
-      <workItem from="1708014008767" duration="633000" />
-      <workItem from="1708080897839" duration="3043000" />
+      <workItem from="1708014008767" duration="572000" />
+      <workItem from="1708025247014" duration="5000" />
+      <workItem from="1708025387188" duration="4427000" />
+      <workItem from="1708203547611" duration="3287000" />
+      <workItem from="1708290815306" duration="610000" />
     </task>
     <servers />
   </component>

@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Menu {
 
     public void menu(){
-        PoupeeRusse poupee1=new PoupeeRusse("oussama" ,30, false);
-        PoupeeRusse poupee2=new PoupeeRusse("salma",15 ,false);
-        PoupeeRusse poupee3=new PoupeeRusse("yassine",20 ,false);
+        PoupeeRusse poupee1=new PoupeeRusse("Grand Poupée" ,30, false);
+        PoupeeRusse poupee2=new PoupeeRusse("Moyenne Poupée",15 ,false);
+        PoupeeRusse poupee3=new PoupeeRusse("Mini Poupée",5 ,false);
         int Choix;
 
         do{
